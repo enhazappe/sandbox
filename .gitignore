@@ -1,1 +1,4 @@
 app/config/local.neon
+vendor
+cache
+logs
