@@ -1,5 +1,5 @@
 vendor
 temp/cache
-temp/sessions
+temp/sessions/
 log
 nbproject
