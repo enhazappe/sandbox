@@ -1,4 +1,5 @@
-app/config/local.neon
 vendor
-cache
-logs
+temp/cache
+temp/sessions
+log
+nbproject
