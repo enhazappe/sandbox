@@ -1,6 +1,3 @@
-parameters:
-
-
 application:
 	errorPresenter: Error
 	mapping:
@@ -9,6 +6,9 @@ application:
 
 session:
 	expiration: 14 days
+	autoStart: yes
+	debugger: true
+	savePath: "%tempDir%/sessions"
 
 
 di:
@@ -19,3 +19,6 @@ di:
 
 services:
 	router: App\Router\RouterFactory::createRouter
+	- Project\Repository\ProjectRepository
+	- Project\Form\IProjectFormFactory
+	- Project\Grid\IProjectGridFactory

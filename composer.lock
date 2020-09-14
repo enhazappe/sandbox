@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a981828f5dfe84ffe919c49b654221d4",
+    "content-hash": "55385cdf427c53ebe2c443abcd6d9a14",
     "packages": [
         {
             "name": "contributte/application",
@@ -146,17 +146,64 @@
             "time": "2020-05-12T11:07:07+00:00"
         },
         {
-            "name": "nette/application",
-            "version": "v3.0.5",
+            "name": "modul-is/orm",
+            "version": "v0.0.7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nette/application.git",
-                "reference": "2974fbfdaa06ca78b8f9f2c71bf16f91ce13f7a2"
+                "url": "https://github.com/modul-is/orm.git",
+                "reference": "c5feb7fd9176f9e69246bd53929b2a26371baea5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/application/zipball/2974fbfdaa06ca78b8f9f2c71bf16f91ce13f7a2",
-                "reference": "2974fbfdaa06ca78b8f9f2c71bf16f91ce13f7a2",
+                "url": "https://api.github.com/repos/modul-is/orm/zipball/c5feb7fd9176f9e69246bd53929b2a26371baea5",
+                "reference": "c5feb7fd9176f9e69246bd53929b2a26371baea5",
+                "shasum": ""
+            },
+            "require": {
+                "nette/database": "^3.0",
+                "nette/utils": "^3.0",
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "modul-is/coding-standard": "^1.0",
+                "nette/caching": "^3.0",
+                "nette/robot-loader": "^3.0",
+                "nette/tester": "^2.2",
+                "phpstan/phpstan": "^0.12.8",
+                "tracy/tracy": "^2.6"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Lightweight hybrid ORM/Explorer",
+            "homepage": "https://github.com/modul-is/orm",
+            "keywords": [
+                "database",
+                "nette",
+                "orm",
+                "php"
+            ],
+            "time": "2020-08-04T10:44:19+00:00"
+        },
+        {
+            "name": "nette/application",
+            "version": "v3.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/application.git",
+                "reference": "783ad6fc6444f63314175131885c04b3dd0291dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/application/zipball/783ad6fc6444f63314175131885c04b3dd0291dd",
+                "reference": "783ad6fc6444f63314175131885c04b3dd0291dd",
                 "shasum": ""
             },
             "require": {
@@ -228,7 +275,7 @@
                 "routing",
                 "seo"
             ],
-            "time": "2020-04-20T21:43:19+00:00"
+            "time": "2020-08-25T01:52:08+00:00"
         },
         {
             "name": "nette/bootstrap",
@@ -2022,16 +2069,16 @@
         },
         {
             "name": "ublaboo/datagrid",
-            "version": "v6.2.27",
+            "version": "v6.2.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/contributte/datagrid.git",
-                "reference": "d1c3b439a45761504986a9f8cd8514eba5f1b4fa"
+                "reference": "20bef77b3d00cc72b78ea4ef4ff04a1bc2f5ed2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/contributte/datagrid/zipball/d1c3b439a45761504986a9f8cd8514eba5f1b4fa",
-                "reference": "d1c3b439a45761504986a9f8cd8514eba5f1b4fa",
+                "url": "https://api.github.com/repos/contributte/datagrid/zipball/20bef77b3d00cc72b78ea4ef4ff04a1bc2f5ed2d",
+                "reference": "20bef77b3d00cc72b78ea4ef4ff04a1bc2f5ed2d",
                 "shasum": ""
             },
             "require": {
@@ -2088,7 +2135,7 @@
                 "grid",
                 "nette"
             ],
-            "time": "2020-08-31T12:34:47+00:00"
+            "time": "2020-09-08T12:24:20+00:00"
         }
     ],
     "packages-dev": [

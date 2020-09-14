@@ -1,0 +1,11 @@
+parameters:
+
+
+database:
+	dsn: 'mysql:host=127.0.0.1;dbname=rtsoft'
+	user: root
+	password: pass
+	options:
+		lazy: yes
+		charset: utf8mb4
+		driverClass: ModulIS\MySqlDriver
